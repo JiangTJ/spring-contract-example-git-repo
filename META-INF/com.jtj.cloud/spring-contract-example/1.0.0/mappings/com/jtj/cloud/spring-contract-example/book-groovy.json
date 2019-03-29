@@ -1,0 +1,21 @@
+{
+  "id" : "fd2e740b-b818-42a6-90ba-b333b98fc239",
+  "request" : {
+    "urlPath" : "/groovy",
+    "method" : "GET",
+    "queryParameters" : {
+      "name" : {
+        "matches" : "[\\S\\s]+"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"price\":1000,\"name\":\"{{{request.query.name.[0]}}}\"}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "fd2e740b-b818-42a6-90ba-b333b98fc239"
+}

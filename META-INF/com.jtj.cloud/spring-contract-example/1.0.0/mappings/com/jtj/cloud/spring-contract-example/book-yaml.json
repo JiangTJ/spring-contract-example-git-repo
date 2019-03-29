@@ -1,0 +1,24 @@
+{
+  "id" : "98798710-5000-47b2-b7a1-0b9ecf2929fd",
+  "request" : {
+    "urlPath" : "/yaml",
+    "method" : "GET",
+    "queryParameters" : {
+      "name" : {
+        "equalTo" : "从入库到精通"
+      },
+      "price" : {
+        "equalTo" : "666"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"price\":\"{{{ request.query.price.[0] }}}\",\"name\":\"{{{ request.query.name.[0] }}}\"}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "98798710-5000-47b2-b7a1-0b9ecf2929fd"
+}
