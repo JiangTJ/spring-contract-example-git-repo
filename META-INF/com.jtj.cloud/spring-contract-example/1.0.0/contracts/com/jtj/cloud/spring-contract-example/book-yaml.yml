@@ -1,0 +1,18 @@
+request:
+  method: GET
+  url: /yaml
+  queryParameters:
+    name: "从入库到精通"
+    price: 666
+  matchers:
+    url:
+    queryParameters:
+      - {key: name, type: matching, value: "[\\S\\s]+"}
+      - {key: price, type: matching, value: '^[0-9]{1,}$'}
+response:
+  status: 200
+  body:
+    name: "{{{ request.query.name.[0] }}}"
+    price: "{{{ request.query.price.[0] }}}"
+  headers:
+    Content-Type: application/json;charset=UTF-8
