@@ -1,5 +1,5 @@
 {
-  "id" : "98798710-5000-47b2-b7a1-0b9ecf2929fd",
+  "id" : "9459370d-7ce4-41bf-8033-57ea33b5ce96",
   "request" : {
     "urlPath" : "/yaml",
     "method" : "GET",
@@ -20,5 +20,5 @@
     },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "98798710-5000-47b2-b7a1-0b9ecf2929fd"
+  "uuid" : "9459370d-7ce4-41bf-8033-57ea33b5ce96"
 }

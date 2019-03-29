@@ -1,5 +1,5 @@
 {
-  "id" : "fd2e740b-b818-42a6-90ba-b333b98fc239",
+  "id" : "23d27551-c3e4-440a-a89f-cab9eb601cb8",
   "request" : {
     "urlPath" : "/groovy",
     "method" : "GET",
@@ -17,5 +17,5 @@
     },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "fd2e740b-b818-42a6-90ba-b333b98fc239"
+  "uuid" : "23d27551-c3e4-440a-a89f-cab9eb601cb8"
 }
